@@ -1,0 +1,74 @@
+/* .modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+
+} */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 90%; /* Genişliği artırarak pop-up boyutunu büyütün */
+  max-width: 800px; /* Maksimum genişliği ayarlayın */
+  height: 80vh; /* Yüksekliği ayarlayın */
+  overflow-y: auto; /* Uzun içerikler için kaydırma çubuğu ekleyin */
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.close {
+  color: #aaa;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+.modal-body {
+  padding: 20px;
+  width: 80%;
+  height: 90%;
+}
+
+
+.owl-carousel-o {
+  margin-top: 20px;
+}
+
+.owl-carousel-o .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel-o .owl-item {
+  padding: 0 10px;
+}
+
+.owl-carousel-o img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

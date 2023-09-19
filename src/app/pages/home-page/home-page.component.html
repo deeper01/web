@@ -1,0 +1,38 @@
+<div class="container">
+  <h1 class="title"> TÜM ALBÜMLER</h1>
+  <div class="searchbar">
+    <select
+      [(ngModel)]="AlbumSelected"
+      (ngModelChange)="onAlbumSelected($event)"
+    >
+      <option *ngFor="let album of lstAlbums" [value]="album.id">
+        {{ album.title }}
+      </option>
+    </select>
+  </div>
+  <br />
+  <h4>Seçili Albüm:{{ AlbumSelected }}</h4>
+  <br />
+  <div class="album-container">
+    <div *ngFor="let album of lstAlbums">
+      <div class="albumcard" data-name="album.id">
+        <img
+          src="https://www.urfahabersitesi.com/images/haberler/rengarenk-doga-manzaralari.jpg"
+          alt=""
+        />
+        <h3>{{ album.id }}) {{ album.title }}</h3>
+        <div class="a-details">
+          <button (click)="openPreview(album)">Albümü incele</button>
+        </div>
+      </div>
+    </div>
+
+    <app-popup
+      [lstPhotos]="lstPhotos"
+      *ngIf="bsModalRef"
+      [previewPhotos]="lstPhotos"
+      [previewAlbum]="bsModalRef"
+      [openModal]="true"
+    ></app-popup>
+  </div>
+</div>

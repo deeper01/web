@@ -1,0 +1,54 @@
+.pn
+{
+  color:rgb(0, 0, 0);
+  font-size: 3rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 1rem;
+  margin-top: 0.2rem;
+  align-items:baseline;
+}
+
+.card-body
+{
+  width: 100%;
+  height: 80%;
+  background: rgb(17, 4, 134);
+  border-radius: 15px;
+  box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  position: relative;
+  flex-direction:row;
+  background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  text-align: center;
+
+}
+.card:hover {
+  box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
+}
+.card-title
+{
+  font-size: 1.5rem;
+  margin-top: 0rem;
+  margin-left: 1rem;
+  font-weight: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-text
+{
+  font-size: 1rem;
+  margin-top: 0px;
+  margin-left: 1rem;
+  font-weight: 0.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon i
+{
+  
+  color: greenyellow;
+}

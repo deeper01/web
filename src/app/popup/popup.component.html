@@ -1,0 +1,22 @@
+<div class="modal-content">
+  <div class="modal-header">
+    <h4 class="modal-title">Albüm Fotoğrafları</h4>
+    <button type="button" class="close" (click)="close()">
+      <span>&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <owl-carousel-o [options]="previewOptions" *ngIf="images.length > 0; else noImagesTemplate" >
+
+    <ng-container *ngFor="let image of images">
+    <ng-template carouselSlide>
+      <img [src]="image" alt="Slide Image">
+    </ng-template>
+  </ng-container>
+    </owl-carousel-o>
+    <ng-template #noImagesTemplate>
+      <div>No images to display</div>
+    </ng-template>
+  </div>
+
+</div>
