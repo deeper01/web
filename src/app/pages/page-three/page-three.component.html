@@ -1,1 +1,54 @@
-<p>page-three works!</p>
+
+<div class="container">
+  <h1 class="title"> YORUMLAR </h1>
+
+  <div class="album-container">
+    <div *ngFor="let album of lstAlbums">
+      <div class="albumcard" data-name="album.id">
+        <img
+          src="https://www.urfahabersitesi.com/images/haberler/rengarenk-doga-manzaralari.jpg"
+          alt=""
+        />
+        <h3>{{ album.id }}) {{ album.title }}</h3>
+        <div class="a-details">
+          <div class="comments-section">
+            <h3 style="color:rgb(187 84 213); font-size: 1.5rem;">Yorumlar</h3>
+
+            <ul>
+
+
+              <li *ngFor="let comment of comments" value="comment.id">
+                <div class="comment-card">
+                  <p style="color: rgb(23, 131, 202);text-align: left;">{{ comment.author }} :</p>
+                  <p>{{ comment.text }}</p>
+
+                </div>
+
+              </li>
+            </ul>
+          </div>
+
+          <div class="comment-form">
+            <h4 style="font-size: 1.5rem;color: cadetblue;">Yorum Yaz</h4>
+            <form (submit)="addComment()">
+              <div class="form-group">
+                <label  for="author">Adınız:</label>
+                <br>
+                <input type="text" id="author" name="author" [(ngModel)]="newComment.author" required>
+              </div>
+              <div class="form-group">
+                <label for="commentText">Yorumunuz:</label>
+                <br>
+                <textarea  id="commentText" name="commentText" [(ngModel)]="newComment.text" required></textarea>
+              </div>
+              <button class="btn_hover" style="background-color: rgba(15, 98, 252, 0.815);" type="submit">Gönder</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

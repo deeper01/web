@@ -1,0 +1,73 @@
+.container
+{
+
+  /* max-width: 1300px; */
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.container .title{
+  font-size: 2.5rem;
+  color: brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container .album-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  gap:2rem;
+}
+.container .album-container .albumcard{
+  height: 99%;
+  width: 98%;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #fff;
+  box-shadow: 0.5rem 0.5rem rgba(0,0,0,.1);
+  outline:.1rem solid #550a0a;
+  outline-offset:-1rem;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+}
+.comment-card{
+  height: 99%;
+  width: 89%;
+  text-align: center;
+
+  background: #fff;
+  box-shadow: 0.5rem 0.5rem rgba(0,0,0,.1);
+
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+}
+.container .album-container .albumcard:hover{
+  outline: 0.5rem solid #222;
+  outline-offset:0;
+  border-radius: 10px 10px 10px 10px;
+
+}
+.container .album-container .albumcard img{
+  height: 18rem;
+  width:16rem ;
+}
+.container .album-container .albumcard:hover img{
+  transform: scale(.9);
+}
+.container .album-container .albumcard h3{
+  padding:.4rem 0;
+  font-size: 1rem;
+  color: #700000;
+
+}
+.container .album-container .albumcard:hover h3{
+
+  color: #27ae60;
+}
+
+.container .album-container .albumcard .a-details{
+  font-size: 1rem;
+  color:#501212;
+
+
+}

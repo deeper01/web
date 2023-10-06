@@ -10,6 +10,7 @@ export class AlbumsComponent {
   userId!: number;
   id!: number;
   title!: string;
+  comments: Comment[]=[];
   //thumbnailUrl!: string;
   constructor(){
 

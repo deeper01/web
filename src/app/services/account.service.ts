@@ -31,9 +31,6 @@ export class AccountService {
     if (!email) {
       return null;
     }
-
-    // const foundUser = users.find((user) => user.email === email);
-    // return foundUser || null;
     return this.loggedInUser;
   }
   //loggedIn=false;

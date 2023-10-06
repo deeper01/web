@@ -10,7 +10,7 @@
 
 
             <div class="form-label-group">
-              <label class="form-label" style="font-size: 1rem;" for="inputEmail">Email</label>
+              <label class="form-label" style="font-size: 1rem;" for="inputEmail">Email </label>
               <input
                 type="text"
                 #email="ngModel"
@@ -18,7 +18,7 @@
                 id="inputEmail"
                 class="form-control"
                 name="email"
-                placeholder="Email giriniz"
+                placeholder="Email giriniz :"
               />
             </div>
 
@@ -45,7 +45,7 @@
                 id="form1Example3"
               />
               <label class="form-check-label"  style="font-size: 1rem;padding-left: 5px;" for="form1Example3">
-                 Şifremi unuttum</label
+                 Şifremi unuttum </label
               >
             </div>
 
@@ -59,26 +59,17 @@
                 >
                   Giriş
                 </button>
+
               </div>
-              <div class="col-lg-12" style="margin-top: 1rem; width: 100%;">
-                <button
-                class="btn btn-lg btn-block btn-primary"
-
-                style="background-color: #861303; border-color: #861303;width: 100%;"
-                type="submit"
-                >
-                  <asl-google-signin-button
-                    *ngIf="!user"
-                    type="icon"
-                    size="medium"
-
-
-
-                    >
-                   </asl-google-signin-button
-                  >
-                </button>
+              <div class="google-button-container">
+                <asl-google-signin-button
+                  *ngIf="!user"
+                  type="icon"
+                  size="medium"
+                ></asl-google-signin-button>
+                <label for="google-signin" class="google-label"> Google'la Devam Et</label>
               </div>
+
             </div>
 
             <!-- <hr class="my-4"> -->

@@ -15,10 +15,14 @@
 
         <div class="side-menu-list">
           <ul class="menu-items">
-            <li (click)= "goTo('home')"[ngClass]= "{onActive:selectedMenu == 'home' }" routerLink="/home"><i class="fa fa-home" aria-hidden="true"></i>Home</li>
-            <li (click)= "goTo('one')"[ngClass]= "{onActive:selectedMenu == 'one'}" routerLink="/one"><i class="fa fa-dot-circle-o" aria-hidden="true" ></i>Page 1</li>
-            <li (click)= "goTo('two')"[ngClass]= "{onActive:selectedMenu == 'two'}" routerLink="/two"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Page 2</li>
-            <li (click)= "goTo('three')"[ngClass]= "{onActive:selectedMenu == 'three' }" routerLink="/three"><i class="fa fa-dot-circle-o" aria-hidden="true" ></i>Page 3</li>
+            <li (click)= "goTo('home')"[ngClass]= "{onActive:selectedMenu == 'home' }"
+            routerLink="/home"><i class="fa fa-home" aria-hidden="true"></i>Tüm Albümler</li>
+            <li (click)= "goTo('one')"[ngClass]= "{onActive:selectedMenu == 'one'}"
+            routerLink="/one"><i class="fa fa-dot-circle-o" aria-hidden="true" ></i>Yapılacaklar</li>
+            <li (click)= "goTo('two')"[ngClass]= "{onActive:selectedMenu == 'two'}"
+            routerLink="/two"><i class="fa fa-heart" aria-hidden="true"></i>Favorilerim</li>
+            <li (click)= "goTo('three')"[ngClass]= "{onActive:selectedMenu == 'three' }"
+             routerLink="/three"><i class="fa fa-commenting-o" aria-hidden="true" ></i>Yorumlar</li>
 
             <!-- <li  (click)= "goTo('login')"[ngClass]= "{onActive:selectedMenu == 'login' }"routerLink="/login"><i class="fa fa-sign-in" aria-hidden="true"></i>Giriş Yap</li> -->
           </ul>
@@ -28,11 +32,17 @@
 
     <div class="col-lg-9"  style="display: flex; flex-direction: column;">
       <div class="col-lg-11" style="display: flex; justify-content:flex-end;" >
-        <button  style="  background-color:transparent; margin-top:2rem;border-radius:20%; color:white; width:8rem;"*ngIf="isLoggedin()==false" class="nav-link"  routerLink="/login" ><i class="fa fa-user"  style="font-size:30px;color:rgb(0, 0, 0)"> Giriş</i></button>
+        <button  style="  background-color:transparent; margin-top:2rem;
+        border-radius:20%; color:white; width:8rem;"
+        *ngIf="isLoggedin()==false" class="nav-link"  routerLink="/login" >
+        <i class="fa fa-user"  style="font-size:30px;color:rgb(0, 0, 0)"> Giriş</i></button>
       </div>
 
         <div class="col-lg-12" style="display: flex; justify-content: flex-end; margin-top: 0%;">
-          <button style="  background-color:transparent; margin-top:2rem;border-radius:20%; color:white; width:8rem;" *ngIf="isLoggedin()==true" class="nav-link" (click)="logOut()"><i class="fa fa-sign-out" style="font-size:30px;color:rgb(0, 0, 0)"> Çıkış</i></button>
+          <button style="  background-color:transparent; margin-top:2rem;border-radius:20%;
+           color:white; width:8rem;"
+           *ngIf="isLoggedin()==true" class="nav-link" (click)="logOut()">
+           <i class="fa fa-sign-out" style="font-size:30px;color:rgb(0, 0, 0)"> Çıkış</i></button>
         </div>
 
       <div class="side-menu-content col-lg-12" >
@@ -43,10 +53,8 @@
 
         </div>
         <div class="tabs" *ngIf= "selectedMenu == 'one'" routerLink="/one">
-            <app-counter>
-              <router-outlet></router-outlet>
-            </app-counter>
 
+              <router-outlet></router-outlet>
 
 
         </div>

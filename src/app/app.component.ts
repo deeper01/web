@@ -41,12 +41,8 @@ export class AppComponent {
 
   }
 
-
-
   logOut() {
     this.accountService.logOut();
-
-
     this.router.navigate(['/home']);
   }
 

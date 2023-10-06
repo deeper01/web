@@ -1,0 +1,601 @@
+[
+  {
+    "id": 1,
+    "text": "Mutlu eden güzel bir manzara.",
+    "author": "Sercan Sepetli",
+    "date": "2023-08-24T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "text": "Özledim eski günleri",
+    "author": "Ayla Gündoğan",
+    "date": "2023-08-24T10:15:00Z"
+  },
+  {
+    "id": 3,
+    "text": "Harika bir gün!",
+    "author": "Ali Yılmaz",
+    "date": "2023-08-24T10:30:00Z"
+  },
+  {
+    "id": 4,
+    "text": "Bugün hava çok sıcak.",
+    "author": "Ayşe Kaya",
+    "date": "2023-08-24T10:45:00Z"
+  },
+  {
+    "id": 5,
+    "text": "Yeni yerler keşfetmek harika.",
+    "author": "Mehmet Demir",
+    "date": "2023-08-24T11:00:00Z"
+  },
+  {
+    "id": 6,
+    "text": "Bugün güzel bir gün.",
+    "author": "Zeynep Yılmaz",
+    "date": "2023-08-24T11:15:00Z"
+  },
+  {
+    "id": 7,
+    "text": "Doğa harikalarıyla dolu bir gün.",
+    "author": "Ahmet Şahin",
+    "date": "2023-08-24T11:30:00Z"
+  },
+  {
+    "id": 8,
+    "text": "Bu manzara görülmeye değer.",
+    "author": "Aylin Demir",
+    "date": "2023-08-24T11:45:00Z"
+  },
+  {
+    "id": 9,
+    "text": "Huzur dolu bir gün geçirdik.",
+    "author": "Eren Aksoy",
+    "date": "2023-08-24T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "text": "Eğlenceli anlar yaşadık.",
+    "author": "Deniz Yılmaz",
+    "date": "2023-08-24T12:15:00Z"
+  },
+  {
+    "id": 11,
+    "text": "Yemekler harikaydı.",
+    "author": "Gamze Özdemir",
+    "date": "2023-08-24T12:30:00Z"
+  },
+  {
+    "id": 12,
+    "text": "Arkadaşlarla güzel vakit geçirdik.",
+    "author": "Murat Arslan",
+    "date": "2023-08-24T12:45:00Z"
+  },
+  {
+    "id": 13,
+    "text": "Birlikte güzel anılar biriktirdik.",
+    "author": "Melis Ertan",
+    "date": "2023-08-24T13:00:00Z"
+  },
+  {
+    "id": 14,
+    "text": "Sakin bir gün oldu.",
+    "author": "Berkay Türkmen",
+    "date": "2023-08-24T13:15:00Z"
+  },
+  {
+    "id": 15,
+    "text": "Hava çok serin.",
+    "author": "Aslıhan Doğan",
+    "date": "2023-08-24T13:30:00Z"
+  },
+  {
+    "id": 16,
+    "text": "Bugün harika bir doğa yürüyüşü yaptık. Ormanın derinliklerine girdik ve doğanın güzelliklerini keşfettik.",
+    "author": "Zehra Akın",
+    "date": "2023-08-24T13:45:00Z"
+  },
+  {
+    "id": 17,
+    "text": "Deniz kıyısında saatlerce dalgaların sesini dinledik. Bu tür anlar insana huzur veriyor.",
+    "author": "Kemal Karadağ",
+    "date": "2023-08-24T14:00:00Z"
+  },
+  {
+    "id": 18,
+    "text": "Akşam yemeği için lezzetli bir restoranda buluştuk. Yemekler muhteşemdi ve keyifli bir sohbet eşliğinde geçti.",
+    "author": "Gülşah Aydın",
+    "date": "2023-08-24T14:15:00Z"
+  },
+  {
+    "id": 19,
+    "text": "Doğa fotoğrafçılığına yeni başladım ve bugün harika kareler yakaladım. Doğanın güzelliği gerçekten ilham verici.",
+    "author": "Emir Kaya",
+    "date": "2023-08-24T14:30:00Z"
+  },
+  {
+    "id": 20,
+    "text": "Kitap okumak için sessiz bir köşeye çekildim. Sayfalar arasında kaybolmak benim için bir zevk.",
+    "author": "Sevim Taşkın",
+    "date": "2023-08-24T14:45:00Z"
+  },
+  {
+    "id": 21,
+    "text": "Hafta sonu pikniği için doğanın kucağına gittik. Temiz hava ve güzel manzaralarla dolu bir gün geçirdik.",
+    "author": "Mehmet Şimşek",
+    "date": "2023-08-24T15:00:00Z"
+  },
+  {
+    "id": 22,
+    "text": "Sanat galerisini ziyaret ettik. Ressamların eserleri beni her zaman büyüler.",
+    "author": "Nazlı Uzun",
+    "date": "2023-08-24T15:15:00Z"
+  },
+  {
+    "id": 23,
+    "text": "Kışın soğuk havasını seviyorum. Kar yağışını izlemek ve sıcak çikolata içmek harika bir kombinasyon.",
+    "author": "Tuncay Ersoy",
+    "date": "2023-08-24T15:30:00Z"
+  },
+  {
+    "id": 24,
+    "text": "Spor salonuna gittim ve harika bir antrenman yaptım. Spor yapmak benim için bir tutku haline geldi.",
+    "author": "Gizem Korkmaz",
+    "date": "2023-08-24T15:45:00Z"
+  },
+  {
+    "id": 25,
+    "text": "Eski arkadaşlarla buluştuk ve eski anıları yad ettik. Gülmekten karnımız ağrıdı!",
+    "author": "Kadir Özdemir",
+    "date": "2023-08-24T16:00:00Z"
+  },
+  {
+    "id": 26,
+    "text": "Yeni bir yemek tarifi denedim ve sonuç mükemmeldi. Her zaman mutfağa zaman ayırmak beni rahatlatır.",
+    "author": "Ayşenur Taş",
+    "date": "2023-08-24T16:15:00Z"
+  },
+  {
+    "id": 27,
+    "text": "Bisiklet sürmek için güzel bir gün seçtik. Doğada pedallamak bedeni ve ruhu dinlendiriyor.",
+    "author": "Emre Yıldırım",
+    "date": "2023-08-24T16:30:00Z"
+  },
+  {
+    "id": 28,
+    "text": "Bugün denize gittik ve muhteşem bir gün geçirdik. Sıcak kumlar, serinletici deniz ve güneşin tadını çıkardık.",
+    "author": "Ebru Yılmaz",
+    "date": "2023-08-25T14:00:00Z"
+  },
+  {
+    "id": 29,
+    "text": "Dağlarda kamp yapmak her zaman en sevdiğim aktivitelerden biridir. Doğanın güzelliği sizi büyüleyecek!",
+    "author": "Mert Eren",
+    "date": "2023-08-25T14:30:00Z"
+  },
+  {
+    "id": 30,
+    "text": "Yüksek tepelerde dolaşmak cesaret isteyen bir aktivite olabilir, ancak manzaralar kesinlikle buna değer.",
+    "author": "Elif Kaya",
+    "date": "2023-08-25T15:00:00Z"
+  },
+  {
+    "id": 31,
+    "text": "Yeni kitabımı bitirdim ve etkilendim. Kitap okumak benim için rahatlatıcı bir aktivite.",
+    "author": "Emre Yıldırım",
+    "date": "2023-08-25T15:30:00Z"
+  },
+  {
+    "id": 32,
+    "text": "Geçen hafta sonu bisiklet sürdüm ve şehri dolaştım. Şehrin farklı bölgelerini keşfetmek çok keyifliydi.",
+    "author": "Ayşegül Şimşek",
+    "date": "2023-08-25T16:00:00Z"
+  },
+  {
+    "id": 33,
+    "text": "Restoranda harika bir akşam yemeği yedik. Lezzetli yemekler ve harika bir şirket, daha ne isteyebilirsiniz?",
+    "author": "Ali Toprak",
+    "date": "2023-08-25T16:30:00Z"
+  },
+  {
+    "id": 34,
+    "text": "Bugün tiyatroya gittik ve sahne performansı şaşırtıcıydı. Sanatın gücünü unutmamalıyız.",
+    "author": "Merve Çetin",
+    "date": "2023-08-25T17:00:00Z"
+  },
+  {
+    "id": 35,
+    "text": "Doğa yürüyüşü yapmak, stresten arınmak için harika bir yol. Ormanın içinde kaybolmak hissi eşsiz.",
+    "author": "Kerem Erdoğan",
+    "date": "2023-08-25T17:30:00Z"
+  },
+  {
+    "id": 36,
+    "text": "Güzel bir konsere katıldık ve müziğin büyüsüne kapıldık. Canlı müzik dinlemek beni her zaman mutlu eder.",
+    "author": "Aslı Yaman",
+    "date": "2023-08-25T18:00:00Z"
+  },
+  {
+    "id": 37,
+    "text": "Biraz macera dolu bir gün geçirdik. Kaya tırmanışı yapmak heyecan verici bir deneyimdi.",
+    "author": "Ege Güler",
+    "date": "2023-08-25T18:30:00Z"
+  },
+  {
+    "id": 38,
+    "text": "Dün gece arkadaşlarla piknik yaptık. Gece gökyüzü altında ateşin etrafında oturmak muhteşemdi.",
+    "author": "Merve Demir",
+    "date": "2023-08-25T19:00:00Z"
+  },
+  {
+    "id": 39,
+    "text": "Bu sabah yoga yaparak güne başladım. Zihnim ve bedenim tazelenmiş hissediyor.",
+    "author": "Deniz Öz",
+    "date": "2023-08-25T19:30:00Z"
+  },
+  {
+    "id": 40,
+    "text": "Bu hafta sonu güzel bir şehir gezisi yaptık. Tarihi yerleri ziyaret etmek çok ilginçti.",
+    "author": "Zeynep Karaca",
+    "date": "2023-08-26T14:00:00Z"
+  },
+  {
+    "id": 41,
+    "text": "Kendi bahçemizde yetiştirdiğimiz domatesler mükemmel. Taze sebzeler yemek gerçekten farklı bir deneyim.",
+    "author": "Ahmet Kaya",
+    "date": "2023-08-26T14:30:00Z"
+  },
+  {
+    "id": 42,
+    "text": "Kitap okurken kahvemi içmeyi seviyorum. Bu, rahatlatıcı bir gün için mükemmel bir kombinasyon.",
+    "author": "Aylin Eren",
+    "date": "2023-08-26T15:00:00Z"
+  },
+  {
+    "id": 43,
+    "text": "Bugün güzel bir piknik yaptık ve doğanın tadını çıkardık. Kuşların şarkıları bizi huzura götürdü.",
+    "author": "Emin Tokat",
+    "date": "2023-08-26T15:30:00Z"
+  },
+  {
+    "id": 44,
+    "text": "Balık tutmaya gittik ve güzel bir akşam yemeği hazırladık. Kendi yakaladığınız balığı yemek gerçekten farklı bir deneyim.",
+    "author": "Zara Duran",
+    "date": "2023-08-26T16:00:00Z"
+  },
+  {
+    "id": 45,
+    "text": "Şehirdeki yeni kafe harika. Kahveleri ve tatlıları mükemmel.",
+    "author": "Kemal Topçu",
+    "date": "2023-08-26T16:30:00Z"
+  },
+  {
+    "id": 46,
+    "text": "Bugün güneşli bir gün ve plaja gitmeye karar verdik. Denizin serin suları harikaydı.",
+    "author": "Gizem Yıldırım",
+    "date": "2023-08-26T17:00:00Z"
+  },
+  {
+    "id": 47,
+    "text": "Akşam yürüyüşleri yapmak ruhu tazelendirir. Sessiz sokaklar ve yıldızlar altında yürümek huzur verici.",
+    "author": "Mehmet Çetinkaya",
+    "date": "2023-08-26T17:30:00Z"
+  },
+  {
+    "id": 48,
+    "text": "Günün sonunda bir fincan çay içmek gerçekten rahatlatıcı. Hayatın tadını çıkarmalıyız.",
+    "author": "Yasemin Kara",
+    "date": "2023-08-26T18:00:00Z"
+  },
+  {
+    "id": 49,
+    "text": "Güzel bir günde bisiklet sürmek en sevdiğim aktivitelerden biri. Rüzgarın tadını çıkarmak muhteşem.",
+    "author": "Can Aksoy",
+    "date": "2023-08-26T18:30:00Z"
+  },
+  {
+    "id": 50,
+    "text": "Şehirdeki müze ziyareti ilginçti. Tarihi eserleri görmek her zaman eğlencelidir.",
+    "author": "Dilan Yılmaz",
+    "date": "2023-08-26T19:00:00Z"
+  },
+  {
+    "id": 51,
+    "text": "Doğa yürüyüşü yaparken harika manzaralar gördük. Dağların tepesine ulaşmak çok ödüllendiriciydi.",
+    "author": "Ahmet Karadeniz",
+    "date": "2023-08-26T19:30:00Z"
+  },
+  {
+    "id": 52,
+    "text": " Sevenlerimle güzel bir gün.",
+    "author": "Sevil Seren",
+    "date": "2023-08-26T20:00:00Z"
+  },
+  {
+    "id": 53,
+    "text": "Bu akşam sinemaya gittik ve film harikaydı. İyi bir film izlemek her zaman keyif verir.",
+    "author": "Sevil Aksu",
+    "date": "2023-08-26T20:00:00Z"
+  },
+  {
+    "id": 54,
+    "text": "Güneşin batışını izlemek her zaman büyüleyici. Deniz kenarında gün batımını görmek muhteşem bir deneyim.",
+    "author": "Cemal Doğan",
+    "date": "2023-08-26T20:30:00Z"
+  },
+  {
+    "id": 55,
+    "text": "Kütüphanede yeni bir kitap buldum ve hemen okumaya başladım. Kitaplar benim için bir tutku.",
+    "author": "Selin Gökçe",
+    "date": "2023-08-26T21:00:00Z"
+  },
+  {
+    "id": 56,
+    "text": "Bugün spor salonunda harika bir antrenman yaptım. Spor yapmak ruh halimi her zaman iyileştirir.",
+    "author": "Emre Yıldırım",
+    "date": "2023-08-27T09:00:00Z"
+  },
+  {
+    "id": 57,
+    "text": "Doğada kamp yapmak benim için en büyük rahatlama kaynağı. Ormanda kamp yaparken kendimi yeniden buluyorum.",
+    "author": "Zeynep Aktaş",
+    "date": "2023-08-27T10:30:00Z"
+  },
+  {
+    "id": 58,
+    "text": "Akşam yürüyüşleri yapmak çok keyifli. Hava serinlediğinde rahatlamak için harika bir yol.",
+    "author": "Can Yılmaz",
+    "date": "2023-08-27T17:45:00Z"
+  },
+  {
+    "id": 59,
+    "text": "Yeni restoranı denedik ve yemekler gerçekten lezzetliydi. Arkadaşlarla güzel vakit geçirdik.",
+    "author": "Nazlı Topçu",
+    "date": "2023-08-28T12:15:00Z"
+  },
+  {
+    "id": 60,
+    "text": "Bugün kitapçıda yeni bir roman buldum ve hemen satın aldım. Kitap okuma zamanı!",
+    "author": "Gizem Özdemir",
+    "date": "2023-08-28T16:30:00Z"
+  },
+  {
+    "id": 61,
+    "text": "Bisiklet sürmek güzel bir hobi. Doğada pedal çevirmek bana huzur veriyor.",
+    "author": "Berkay Şahin",
+    "date": "2023-08-29T11:00:00Z"
+  },
+  {
+    "id": 62,
+    "text": "Bugün pikniğe gittik ve harika vakit geçirdik. Doğanın tadını çıkarmak çok güzeldi.",
+    "author": "Yasemin Kaya",
+    "date": "2023-08-29T14:45:00Z"
+  },
+  {
+    "id": 63,
+    "text": "Yeni bir kafe keşfettik ve kahveler çok lezzetliydi. Kafe kültürünü seviyorum.",
+    "author": "Tolga Arslan",
+    "date": "2023-08-30T09:30:00Z"
+  },
+  {
+    "id": 64,
+    "text": "Dün gece yıldızları izlemek için teleskop kullandım. Evrende neler olduğunu öğrenmek ilginç.",
+    "author": "Melis Uzun",
+    "date": "2023-08-30T22:00:00Z"
+  },
+  {
+    "id": 65,
+    "text": "Sanat galerisini ziyaret ettik ve resimler çok etkileyiciydi. Sanata olan ilgim her geçen gün artıyor.",
+    "author": "Ege Çelik",
+    "date": "2023-08-31T13:20:00Z"
+  },
+  {
+    "id": 66,
+    "text": "Arkadaşlarımızla deniz kenarında mangal partisi düzenledik. Deniz, kum ve güneş... Daha ne isteyebiliriz?",
+    "author": "Buse Korkmaz",
+    "date": "2023-08-31T19:00:00Z"
+  },
+  {
+    "id": 67,
+    "text": "Hafta sonu bisiklet turuna çıktık ve yeni rotalar keşfettik. Doğada olmak her zaman harika.",
+    "author": "Mert Avcı",
+    "date": "2023-09-01T10:45:00Z"
+  },
+  {
+    "id": 68,
+    "text": "Sinemaya gittik ve film çok komikti. Kahkahalarla güldük!",
+    "author": "Beyza Kara",
+    "date": "2023-09-01T21:15:00Z"
+  },
+  {
+    "id": 69,
+    "text": "Bugün iş arkadaşlarımla birlikte eğlenceli bir oyun gecesi düzenledik. Monopoly oynamak her zaman keyiflidir.",
+    "author": "Cemil Öztürk",
+    "date": "2023-09-02T19:30:00Z"
+  },
+  {
+    "id": 70,
+    "text": "Doğa yürüyüşüne katıldık ve harika manzaralar gördük. Doğanın güzelliği insanı her zaman etkiler.",
+    "author": "Ezgi Şen",
+    "date": "2023-09-02T12:00:00Z"
+  },
+  {
+    "id": 71,
+    "text": "Bugün müze ziyareti yaptık ve tarihi eserleri inceledik. Geçmişe olan ilgim her geçen gün artıyor.",
+    "author": "Tamer Yılmaz",
+    "date": "2023-09-03T15:10:00Z"
+  },
+  {
+    "id": 72,
+    "text": "Yeni şehirdeki restoranları keşfetmek çok keyifli. Farklı mutfakları denemek her zaman heyecan verici.",
+    "author": "Elif Gürsoy",
+    "date": "2023-09-03T20:45:00Z"
+  },
+  {
+    "id": 73,
+    "text": "Hafta sonu plaja gittik ve denizde yüzmek gerçekten rahatlatıcıydı. Tatilin tadını çıkarmak önemlidir.",
+    "author": "Furkan Akın",
+    "date": "2023-09-04T11:30:00Z"
+  },
+  {
+    "id": 74,
+    "text": "Dün gece arkadaşlarımızla konseri izledik. Müziğin gücü gerçekten büyüleyici.",
+    "author": "Selin Güneş",
+    "date": "2023-09-04T22:20:00Z"
+  },
+  {
+    "id": 75,
+    "text": "Bugün fotoğrafçılık yaparken harika bir manzara yakaladım. Fotoğraf çekmek beni her zaman mutlu eder.",
+    "author": "Kaan Demir",
+    "date": "2023-09-05T14:50:00Z"
+  },
+  {
+    "id": 76,
+    "text": "Yeni bir yemek tarifi denedik ve sonuç mükemmeldi. Yemek yapmak terapötik bir aktivitedir.",
+    "author": "Berna Aydın",
+    "date": "2023-09-05T18:40:00Z"
+  },
+  {
+    "id": 77,
+    "text": "Sinemada yeni bir bilim kurgu filmi izledik. Geleceği düşünmek her zaman ilginçtir.",
+    "author": "Eren Çetin",
+    "date": "2023-09-06T21:00:00Z"
+  },
+  {
+    "id": 78,
+    "text": "Kitap kulübü toplantısı yaptık ve yeni bir romanı tartıştık. Kitap okumak düşünceleri genişletir.",
+    "author": "Pelin Yıldız",
+    "date": "2023-09-06T19:15:00Z"
+  },
+  {
+    "id": 79,
+    "text": "Akşam yemeğinde lezzetli bir makarna pişirdik. Kendi yemeklerini yapmak eğlencelidir.",
+    "author": "Arda Can",
+    "date": "2023-09-07T20:30:00Z"
+  },
+  {
+    "id": 80,
+    "text": "Yeni bir film serisine başladık ve her gece bir bölüm izliyoruz. Dizi izlemek keyif verir.",
+    "author": "Sevim Çiçek",
+    "date": "2023-09-07T22:30:00Z"
+  },
+  {
+    "id": 81,
+    "text": "Hafta sonu doğada kamp yapmak için gittik ve yıldızların altında uyuduk. Bu deneyim unutulmazdı.",
+    "author": "Uğur Taşkın",
+    "date": "2023-09-08T12:00:00Z"
+  },{
+    "id": 82,
+    "text": "Bugün güzel bir gün, her şey yolunda gidiyor gibi hissediyorum.",
+    "author": "Seda Karadağ",
+    "date": "2023-09-09T09:30:00Z"
+  },
+  {
+    "id": 83,
+    "text": "Eski arkadaşlarımla buluştuk ve eski anıları yad ettik. Eski günleri özlemişim.",
+    "author": "Kemal Ay",
+    "date": "2023-09-09T16:15:00Z"
+  },
+  {
+    "id": 84,
+    "text": "Yeni bir spor aracı satın aldım ve hemen kullanmaya başladım. Egzersiz yapmak hayatımı iyileştiriyor.",
+    "author": "Deniz Yıldız",
+    "date": "2023-09-10T10:45:00Z"
+  },
+  {
+    "id": 85,
+    "text": "Akşam yemeği için en sevdiğim restorana gittik ve yemekler yine muhteşemdi.",
+    "author": "Leyla Uzun",
+    "date": "2023-09-10T20:00:00Z"
+  },
+  {
+    "id": 86,
+    "text": "Bugün doğum günüm ve sevdiklerimle kutladık. Her yaşın güzelliği var.",
+    "author": "Hasan Toprak",
+    "date": "2023-09-11T14:30:00Z"
+  },
+  {
+    "id": 87,
+    "text": "Kütüphanede yeni bir kitap buldum ve hemen okumaya başladım. Kitaplar beni farklı dünyalara götürüyor.",
+    "author": "Selin Kaya",
+    "date": "2023-09-11T17:20:00Z"
+  },
+  {
+    "id": 88,
+    "text": "Tatilde denize gittik ve dalga sesi dinlemek çok huzur vericiydi.",
+    "author": "Berk Can",
+    "date": "2023-09-12T11:10:00Z"
+  },
+  {
+    "id": 89,
+    "text": "Yoga yapmak bedenimi ve zihnimii rahatlatıyor. Her gün biraz yoga yapmak harika bir alışkanlık.",
+    "author": "Ela Şahin",
+    "date": "2023-09-12T19:45:00Z"
+  },
+  {
+    "id": 90,
+    "text": "Dün gece arkadaşlarımla kamp ateşi yakarak vakit geçirdik. Yıldızlar altında sohbet etmek çok keyifliydi.",
+    "author": "Kaan Demir",
+    "date": "2023-09-13T22:00:00Z"
+  },
+  {
+    "id": 91,
+    "text": "Evde pizza yapmayı denedik ve sonuç muhteşemdi. Kendi pizzanızı yapmak eğlencelidir.",
+    "author": "Sena Arslan",
+    "date": "2023-09-13T18:30:00Z"
+  },
+  {
+    "id": 92,
+    "text": "Sinemada son çıkan filmlerden birini izledik ve etkileyiciydi. Sinema her zaman iyi bir seçenektir.",
+    "author": "Caner Korkmaz",
+    "date": "2023-09-14T21:45:00Z"
+  },
+  {
+    "id": 93,
+    "text": "Bugün doğada yürüyüşe çıktık ve muhteşem manzaraların tadını çıkardık.",
+    "author": "Nisan Aktaş",
+    "date": "2023-09-14T15:15:00Z"
+  },
+  {
+    "id": 94,
+    "text": "Eski albümlerimi karıştırdım ve eski anılara daldım. Geçmiş anıları hatırlamak güzeldir.",
+    "author": "Ferhat Aydın",
+    "date": "2023-09-15T12:20:00Z"
+  },
+  {
+    "id": 95,
+    "text": "Tatilde denizde sörf yapmayı denedik ve dalgaların üstünde kaymak çok heyecan vericiydi.",
+    "author": "Lara Uğur",
+    "date": "2023-09-15T16:00:00Z"
+  },
+  {
+    "id": 96,
+    "text": "Bugün müze gezisi yaptık ve sanat eserlerini inceledik. Sanat her zaman ilham vericidir.",
+    "author": "Canan Avcı",
+    "date": "2023-09-16T14:45:00Z"
+  },
+  {
+    "id": 97,
+    "text": "Hafta sonu kırsal bir bölgede kamp yapmak için gittik. Doğada kamp yapmak her zaman harikadır.",
+    "author": "Burak Taşkın",
+    "date": "2023-09-16T18:30:00Z"
+  },
+  {
+    "id": 98,
+    "text": "Eski arkadaşlarımla buluşup eski anıları canlandırdık. Eski dostlarla geçirilen zaman çok özeldir.",
+    "author": "Selin Çetin",
+    "date": "2023-09-17T12:00:00Z"
+  },
+  {
+    "id": 99,
+    "text": "Doğada kamp yapmak, tüm stresi atmak için harika bir yoldur. Doğanın güzelliklerini keşfetmek muhteşemdir.",
+    "author": "Oğuz Yılmaz",
+    "date": "2023-09-17T19:15:00Z"
+  },
+  {
+    "id": 100,
+    "text": "Yeni bir şehirdeki tarihi bölgeleri gezdik ve çok şey öğrendik. Seyahat etmek her zaman eğitici olur.",
+    "author": "Ebru Güler",
+    "date": "2023-09-18T15:45:00Z"
+  }
+]

@@ -28,6 +28,9 @@ import {
 } from '@abacritt/angularx-social-login';
 
 import { GoogleSigninButtonModule } from '@abacritt/angularx-social-login';
+import { CommentsComponent } from './comments/comment/comment.component';
+import { AddCommentComponent } from './comments/addcomment/addcomment.component';
+import { EditCommentComponent } from './comments/editcomment/editcomment.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,9 @@ import { GoogleSigninButtonModule } from '@abacritt/angularx-social-login';
     PhotosComponent,
     PopupComponent,
     LoginComponent,
+    CommentsComponent,
+    AddCommentComponent,
+    EditCommentComponent,
   ],
   imports: [
     BrowserModule,

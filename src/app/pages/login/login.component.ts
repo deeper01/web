@@ -53,7 +53,7 @@ export class LoginComponent implements OnInit {
     }
   }
 
-    
+
     googleLogin() {
 
       this.authService.authState.subscribe((user) => {
@@ -66,17 +66,9 @@ export class LoginComponent implements OnInit {
         console.log(this.user);
 
       });
-
-
     }
 
 
 
-  // isLoggedin(){
-  //   return this.accountService.isLoggedIn();
-
-  // }
-  // logOut(){
-  //   this.accountService.logOut();
-  // }
+ 
 }

@@ -6,3 +6,69 @@
   display: none;
   color:blueviolet
 }
+
+.btn_hover{
+
+  display: inline-block;
+
+  border-radius: 4px;
+
+  background-color: #f4501edc;
+
+  border: none;
+  border-radius: 10%;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 20px;
+
+  padding: 10px;
+
+  width: 150px;
+
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 5px;
+}
+
+.btn_hover span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+}
+
+.btn_hover span:after {
+
+  content: '\00bb';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+  right: -20px;
+
+  transition: 0.5s;
+}
+
+.btn_hover:hover span {
+
+  padding-right: 25px;
+}
+
+.btn_hover:hover span:after {
+
+  opacity: 1;
+
+  right: 0;
+}

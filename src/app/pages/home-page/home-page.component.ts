@@ -26,9 +26,7 @@ export class HomePageComponent implements OnInit {
   constructor(private _apiService: apiService, private modalService: BsModalService,private accountService: AccountService ,private authService:SocialAuthService) {
 
   }
-  // lstAlbums!: AlbumsComponent[];
   AlbumSelected!: Number;
-  // lstPhotos!: PhotosComponent[];
   openModal = false;
   previewAlbum: any | null = null;
   previewPhotos:PhotosComponent[]  = [];
